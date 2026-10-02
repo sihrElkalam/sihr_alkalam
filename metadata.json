@@ -1,0 +1,6 @@
+{
+  "name": "سحر الكلام",
+  "description": "منصة تعليمية عربية متكاملة لتعليم تقنيات التعبير الشفهي والكتابي وفق المنهاج الجزائري للأطوار الابتدائي والمتوسط والثانوي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

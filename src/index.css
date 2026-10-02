@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Tajawal', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cairo', sans-serif;
+  }
+}
+
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-tajawal {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+/* Educational background motifs */
+.bg-notebook-pattern {
+  background-color: #fefdf9;
+  background-image: radial-gradient(#eadbc8 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+}
+
+.chalkboard-bg {
+  background-color: #1e3a2f;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 0);
+  background-size: 20px 20px;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf6ee;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
